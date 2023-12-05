@@ -1,0 +1,363 @@
+.first-cont{
+    background-color: white;
+    width: 360px;
+    height: 470px;
+    border-radius: 8px;
+    border: 1px solid rgb(199, 165, 199)!important;
+}
+
+.second-cont{
+  background-color: white;
+  width: 360px;
+  height: 470px;
+  border-radius: 8px;
+  border: 1px solid rgb(199, 165, 199)!important;
+}
+
+
+.text-and-action{
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+}
+
+.fImage{
+    width:100%;
+    overflow: none;
+}
+
+
+/* root page (FIRST PAGE)  */
+.welcomeTxt{
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.welcomeImg{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: 5s;
+}
+
+
+.welcomeImg img:hover{
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+
+/* Navbar */
+body{
+    background-color: white;
+}
+
+
+.navigation{
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    position: fixed;
+    z-index: 1000000000000000000000000000000000000000000000;
+}
+
+.cart{
+    color: black!important;
+}
+
+.btn{
+    background-color: purple;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color:purple;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+
+#cart-number{
+    background-color: white;
+    border-radius: 100%;
+    padding: 2px 6.4px;
+    color: purple!important;
+}
+
+.welcome-text{
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+@media screen and (max-width:600px){ 
+.navigation{
+    padding: 20px 10px;
+}
+
+.welcome-text{
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+.btn{
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-weight: 500; 
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fHeading{
+    padding-top: 130px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 3px solid purple;
+    margin-left: 0px !important;;
+    margin-right: 0px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/* feautured products heading */
+.fHeading{
+    padding-top: 130px;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 3px solid purple;
+    margin-left:80px;
+    margin-right: 90px;
+}
+
+
+/* productsPage */
+
+.cta{
+    background-color: hsl(300, 100%, 25%);
+    color: white;
+    padding: 8px 21px;
+    border-radius: 7px;
+    font-weight: 500;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 10px 3px;
+}
+
+.loadMore{
+    background-color: purple;
+    color: white;
+    padding: 8px 21px;
+    border-radius: 7px;
+    font-weight: 500;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    max-width: fit-content;
+    margin-left: 50%;
+}
+
+.loadMore:hover{
+    background-color: white;
+    color:purple;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+
+.cta:hover{
+    background-color: white;
+    color:purple;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+
+.cta:disabled{
+    background-color: hsl(300, 40%, 25%);
+    color: white;
+    border: 1px solid purple;
+    cursor: not-allowed;
+}
+
+.form-control{
+    display: grid;
+    grid-template-columns: 1;
+    gap: .25rem;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .atc{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin: 15px 10px;
+    padding: 10px 5px;
+  }
+
+
+  /* Checkout Page */
+
+  .checkoutImg{
+    border-radius: 50%;
+  }
+
+.checkoutDiv{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+
+.checkoutQuantityBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    border: 1px solid purple;
+    padding: 10px 10px;
+}
+
+  .cartHeading{
+    display: flex;
+    align-items: center;
+  }
+
+  .cartHeading h1{
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .fieldbox{
+    margin: 35px 0px;
+  }
+
+  .fieldtitle{
+    margin-left: 15px;
+    background-color: white;
+    padding: 3px 15px;
+    z-index: 10;
+    position: absolute;
+    color: #ff4dff;
+  }
+
+  .textfield{
+    border: 1px solid #999999;
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 16px;
+    z-index: -5;
+    color: grey;
+  }
+
+  .textfield:focus{
+    border: 2.3px solid #737373 !important;
+    outline: none;
+    color: #cc00cc;
+  }
+
+  .order-btn{
+    background-color: purple;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s;
+    width: fit-content;
+    margin-bottom: 30px;
+    transition: 400ms;
+  }
+
+  .order-btn:hover{
+    color: purple;
+    background-color: transparent;
+    border: 1px solid #ff4dff;
+  }
+
+
+  /* Footer */
+
+
+.copyright{
+  background-color: #DC7EE8;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+
+.footerHeader{
+  background-color: #DC7EE8;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 70px;
+  padding-top: 60px;
+  padding-left: 100px;
+  color: white;
+}
+  
+  .footer{
+    padding: 50px 100px 40px 100px;
+    background-color: #DC7EE8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot-text{
+    text-align: left;
+    padding-top: 20px;
+    transition: 500ms;
+  }
+
+  .foot-text:hover{
+    cursor: pointer;
+    border-bottom: 3px solid white;
+  }
+
+  
+  /* Admin Dashboard  & Admin navbar */
+
+  .viewOrderBtn{
+    color:purple;
+    transition: 400ms;
+    margin-left: 10px;
+  }
+
+  .viewOrderBtn:hover{
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
